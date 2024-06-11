@@ -1,8 +1,30 @@
-# React + Vite
+# Tic-Tac-Toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple, yet fun implementation of the classic game Tic-Tac-Toe built with React.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Interactive game board and ability to set player names
+- Game over screen with replay option
+- Game log showing the moves history
+- Player component to display player's turn
+- Winning combinations logic
+
+## Installation
+
+First, clone the repository to your local machine then, navigate to the project directory and install the dependencies:
+
+```
+cd tic-tac-toe
+npm install
+```
+
+## Running the Application
+
+To start the development server, run:
+
+```
+npm run dev
+```
+
+The application will be available at http://localhost:5173.
